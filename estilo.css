@@ -3,6 +3,18 @@
   object-fit: cover;
   transition: 0.3s;
 }
+.galeria .card {
+  overflow: hidden;
+}
+.bandeira {
+  max-width: 100px;
+}
+
+@media (max-width: 400px) {
+  .bandeira {
+    max-width: 200px;
+  }
+}
 
 .galeria img:hover {
   transform: scale(1.05);
