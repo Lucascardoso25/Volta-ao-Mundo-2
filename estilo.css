@@ -56,3 +56,28 @@
 .mt-5, .text-muted, .mb-4{
   text-align: center;
 }
+.info-item {
+  text-align: center;
+  padding: 5px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  min-width: 20px;
+}
+
+.info-item i {
+  font-size: 18px;
+  color: #3a86ff;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.info-item:hover {
+  transform: translateY(-5px);
+}
+
+.info-item:hover i {
+  color: #ffd166;
+  transform: scale(1.2);
+}
